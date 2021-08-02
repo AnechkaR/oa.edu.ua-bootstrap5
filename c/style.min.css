@@ -1931,7 +1931,8 @@ pre {
 } */
 .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
     padding-left: .9em;
-    padding-right: .9em
+    padding-right: .9em;
+    position: relative;
 }
 .table {
     margin-bottom: 22px
@@ -2313,7 +2314,7 @@ body {
     }
 }
 @media (max-width: 767px){
-.social .row {
+.social {
     text-align: center;
     display: block;
     margin-top: .5em;
@@ -2344,4 +2345,19 @@ body {
 }
 .menu-en .last a {
     white-space: nowrap;
+}
+blockquote footer, blockquote small, blockquote .small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #999;
+}
+blockquote footer:before, blockquote small:before, blockquote .small:before {
+    content: '\2014 \00A0';
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
 }
