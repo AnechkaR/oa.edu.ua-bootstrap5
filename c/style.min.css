@@ -396,7 +396,8 @@ nav.blue {
     padding-top: 15px;
     -webkit-transition: all 150ms ease-in-out;
     transition: all .3s ease-in-out;
-    text-align: right
+    text-align: right;
+    position: relative
 }
 .svg {
     position: relative;
