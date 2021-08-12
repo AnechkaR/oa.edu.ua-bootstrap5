@@ -2138,7 +2138,7 @@ select.input-sm {
         display: none;
     }
     #Home .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type, #Inner .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
-        padding: 20px 0;
+        padding: 25px 0;
         text-shadow: none;
         font-size: 100%
     }
