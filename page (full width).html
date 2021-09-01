@@ -23,10 +23,10 @@
 
 <body id="Inner">
 <header>
-    <nav class="navbar navbar-light fixed-top navbar-expand-md blue" role="navigation">
+    <nav class="navbar navbar-light fixed-top navbar-expand-md" role="navigation">
         <div class="container">
             <div class="headline d-none d-md-block"></div>
-            <div class="row nav-row">
+            <div class="row nav-row  align-items-center">
                 <div class="col-md-4 col-lg-4 col-xl-4">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -39,17 +39,15 @@
                                     <p>ОСТРОЗЬКА АКАДЕМІЯ</p>
                                 </div>
                             </a>
-                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-							</button>
-                            <!-- <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Навігація</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button> -->
-                            <!-- <div style="clear:both;"></div>  -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent"
+                                    aria-controls="navbarToggleExternalContent"
+                                    aria-label="Переключатель навигации"
+                                    aria-expanded="false"
+                            >
+                                <span class="visually-hidden">Навігація</span>
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
 
                         </div>
@@ -68,13 +66,13 @@
                             <div class="col-12">
                                 <a id="mainnav"></a>
                                 <nav role="navigation">
-                                    <ul class="nav d-flex flex-column align-items-end flex-md-row justify-content-between">
+                                    <ul class="navbar-nav d-flex flex-column align-items-end flex-md-row justify-content-between">
                                         <li class="nav-item" id="univercity"><a class="nav-link" href="/ua/info/">Університет</a></li>
                                         <li class="nav-item" id="departments"><a class="nav-link" href="/ua/departments/">Факультети</a></li>
                                         <li class="nav-item" id="enter"><a class="nav-link" href="https://vstup.oa.edu.ua">Вступ</a></li>
                                         <li class="nav-item" id="student"><a class="nav-link" href="/ua/osvita/">Освіта</a></li>
                                         <li class="nav-item" id="science"><a class="nav-link" href="/ua/science/">Наука</a></li>
-                                        <li class="nav-item" id="resources" class="last"><a class="nav-link" href="/ua/resources/">Ресурси</a></li>
+                                        <li class="nav-item last" id="resources"><a class="nav-link" href="/ua/resources/">Ресурси</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -84,7 +82,7 @@
                             <div class="col-12">
                                 <a id="rolesnav"></a>
                                 <nav role="navigation">
-                                    <ul class="nav d-flex flex-column flex-md-row justify-content-between">
+                                    <ul class="navbar-nav d-flex flex-column flex-md-row justify-content-between">
                                         <li class="nav-item"><a class="nav-link" href="/ua/search">Мапа сайту</a></li>
                                         <li class="nav-item"><a class="nav-link" href="/ua/info/news">Новини</a></li>
                                         <li class="nav-item"><a class="nav-link" href="//events.oa.edu.ua">Події</a></li>

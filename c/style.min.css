@@ -648,7 +648,7 @@ nav.blue {
 .news-block a img {
     margin-bottom: 13px
 }
-.news-block .m2 {
+.news-block .m-2 {
     height: 3em
 }
 .news-block .m2 h2 {
@@ -1531,6 +1531,7 @@ img.pica {
     }
     header .navbar-light .container .nav-row .navbar-header .navbar-brand p:first-of-type {
         font-size: 12px;
+        padding-top: 8px;
         margin-bottom: 0
     }
     header .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
@@ -2037,13 +2038,13 @@ select.input-sm {
     background-color: #ccc
 }
 .navbar-light .navbar-nav .nav-item a:focus, .navbar-light .navbar-nav .nav-item a:hover {
-    color: #fff;
-    background-color: #ff7200;
+    color: #2b8ca9;
+    background-color: #fffecd;
     text-shadow: none
 }
 .navbar-light .navbar-nav>.active .nav-link, .navbar-light .navbar-nav>.active .nav-link:focus, .navbar-light .navbar-nav>.active .nav-link:hover {
-    color: #fff;
-    background-color: #ff7200
+    color: #2b8ca9;
+    background-color: #fffecd
 }
 .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
     background-color: transparent
