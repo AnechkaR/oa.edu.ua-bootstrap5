@@ -12,13 +12,13 @@
 @font-face {
     font-family: 'icons';
     src:
-      url('../fonts/icons.ttf?wzrpzi') format('truetype'),
-      url('../fonts/icons.woff?wzrpzi') format('woff'),
-      url('../fonts/icons.svg?wzrpzi#icons') format('svg');
+            url('../fonts/icons.ttf?wzrpzi') format('truetype'),
+            url('../fonts/icons.woff?wzrpzi') format('woff'),
+            url('../fonts/icons.svg?wzrpzi#icons') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
+}
 
 @font-face {
     font-family: 'Segoe UI Light';
@@ -165,50 +165,50 @@
 }
 ._icon-angle-down:before {
     content: "\e900";
-  }
-  ._icon-angle-left:before {
+}
+._icon-angle-left:before {
     content: "\e901";
-  }
-  ._icon-angle-right:before {
+}
+._icon-angle-right:before {
     content: "\e902";
-  }
-  ._icon-angle-up:before {
+}
+._icon-angle-up:before {
     content: "\e903";
     font-size: 25px;
-  }
-  ._icon-facebook-f:before {
+}
+._icon-facebook-f:before {
     content: "\e904";
-  }
-  ._icon-instagram:before {
+}
+._icon-instagram:before {
     content: "\e905";
-  }
-  ._icon-telegram:before {
+}
+._icon-telegram:before {
     content: "\e906";
-  }
-  ._icon-youtube:before {
+}
+._icon-youtube:before {
     content: "\e907";
-  }
-  ._icon-twitter:before {
+}
+._icon-twitter:before {
     content: "\e908";
-  }
-  ._icon-folder:before {
+}
+._icon-folder:before {
     content: "\e909";
-  }
-  ._icon-clock:before {
+}
+._icon-clock:before {
     content: "\e90a";
-  }
-  ._icon-list-alt:before {
+}
+._icon-list-alt:before {
     content: "\e90b";
-  }
-  ._icon-wifi:before {
+}
+._icon-wifi:before {
     content: "\e90c";
-  }
-  ._icon-search:before {
+}
+._icon-search:before {
     content: "\e90d";
-  }
-  ._icon-play-circle:before {
+}
+._icon-play-circle:before {
     content: "\e90e";
-  }
+}
 body {
     font-family: Segoe UI, ProximaNova, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -329,8 +329,8 @@ nav.blue {
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    padding-top: 34px;
-    padding-bottom: 42px;
+    padding: 34px 15px 42px;
+    /*padding-bottom: 42px;*/
     font-size: 1.05em
 }
 #accordion .collapsed .card-header, .navicons {
@@ -648,7 +648,7 @@ nav.blue {
 .news-block a img {
     margin-bottom: 13px
 }
-.news-block .m-2 {
+.news-block .m2 {
     height: 3em
 }
 .news-block .m2 h2 {
@@ -1531,7 +1531,6 @@ img.pica {
     }
     header .navbar-light .container .nav-row .navbar-header .navbar-brand p:first-of-type {
         font-size: 12px;
-        padding-top: 8px;
         margin-bottom: 0
     }
     header .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
@@ -1865,8 +1864,8 @@ h4, h5, h6 {
     margin-bottom: 11px
 }
 , .h1, h1 {
-    font-size: 2.55em
-}
+      font-size: 2.55em
+  }
 .h2, .s5, h2 {
     font-size: 1.8em
 }
@@ -2038,12 +2037,12 @@ select.input-sm {
     background-color: #ccc
 }
 .navbar-light .navbar-nav .nav-item a:focus, .navbar-light .navbar-nav .nav-item a:hover {
-    color: #2b8ca9;
+    color: #2B8CA9;
     background-color: #fffecd;
     text-shadow: none
 }
 .navbar-light .navbar-nav>.active .nav-link, .navbar-light .navbar-nav>.active .nav-link:focus, .navbar-light .navbar-nav>.active .nav-link:hover {
-    color: #2b8ca9;
+    color: #2B8CA9;
     background-color: #fffecd
 }
 .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
@@ -2197,9 +2196,9 @@ select.input-sm {
         margin-bottom: 0
     }
     .news-block .container .news .row>.three_strings{
-    height: 255px;
-    flex-wrap: inherit;
-    overflow: hidden;
+        height: 255px;
+        flex-wrap: inherit;
+        overflow: hidden;
     }
     .news-block p.latest {
         margin-top: 2em;
@@ -2315,12 +2314,12 @@ body {
     }
 }
 @media (max-width: 767px){
-.social {
-    text-align: center;
-    display: block;
-    margin-top: .5em;
-    margin-bottom: .5em
-}
+    .social {
+        text-align: center;
+        display: block;
+        margin-top: .5em;
+        margin-bottom: .5em
+    }
 }
 #snowflakeContainer {
     position: absolute;
