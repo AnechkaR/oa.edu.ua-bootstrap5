@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#Inner .navbar-light .container .nav-row .navbar-header .navbar-brand div p, .navbar-brand, .navbar-nav .nav-item a, .stick .navbar-light .container .nav-row .navbar-header .navbar-brand a p, .stick .navbar-light .justify-content-between .nav-item a {
+#Inner .navbar-dark .container .nav-row .navbar-header .navbar-brand div p, .navbar-brand, .navbar-nav .nav-item a, .stick .navbar-dark .container .nav-row .navbar-header .navbar-brand a p, .stick .navbar-dark .justify-content-between .nav-item a {
     text-shadow: none
 }
 #Inner .reflect_archive_list ul li, ul li {
@@ -235,13 +235,13 @@ a:hover {
     width: 100%;
     height: 15px
 }
-#Inner header .navbar-light {
+#Inner header .navbar-dark {
     -webkit-transition: width .5s;
     -moz-transition: width .5s;
     -ms-transition: width .5s;
     transition: width .5s
 }
-#Inner.stick .navbar-light, #Main.stick .navbar-light {
+#Inner.stick .navbar-dark, #Main.stick .navbar-dark {
     height: 70px;
     z-index: 110
 }
@@ -265,24 +265,25 @@ a:hover {
 .stick .logo {
     display: none
 }
-.stick .headline, .stick .navbar-light .container .nav-row .navbar-header .navbar-brand p:first-of-type {
+.stick .headline, .stick .navbar-dark .container .nav-row .navbar-header .navbar-brand p:first-of-type {
     display: none !important
 }
 .stick header nav {
     background: rgba(43, 140, 169, .95);
-    box-shadow: none
+    box-shadow: none;
+    height: 70px;
 }
 .stick header nav nav {
     background: none
 }
-.stick .navbar-light .container .nav-row .navbar-header .navbar-brand {
+.stick .navbar-dark .container .nav-row .navbar-header .navbar-brand {
     margin-top: 0;
     /* padding: 0 0 0 15px */
 }
-.stick .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
+.stick .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type {
     padding: 22px 0
 }
-.stick .navbar-light .justify-content-between .nav-item a {
+.stick .navbar-dark .justify-content-between .nav-item a {
     padding-top: 23px;
     padding-bottom: 24px
 }
@@ -312,7 +313,7 @@ header nav span {
     height: 49px;
     line-height: 51px
 }
-header .navbar-light {
+header .navbar-dark {
     border: none
 }
 nav.blue {
@@ -322,7 +323,7 @@ nav.blue {
     display: block;
     text-decoration: none
 }
-.navbar-light .justify-content-between .nav-item a {
+.navbar-dark .justify-content-between .nav-item a {
     color: #fffecd;
     text-decoration: none;
     -webkit-transition: all .3s ease-in-out;
@@ -337,30 +338,28 @@ nav.blue {
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out
 }
-.navbar-light .container .nav-row .navbar-header .navbar-brand {
-    margin-top: 3px
-}
-.navbar-light .container .nav-row .navbar-header .navbar-brand img {
+
+.navbar-dark .container .nav-row .navbar-header .navbar-brand img {
     float: left;
     margin-right: 10px;
 }
-/* .navbar-light .container .nav-row .navbar-header .navbar-brand div {
+/* .navbar-dark .container .nav-row .navbar-header .navbar-brand div {
     float: left
 } */
 /* -------- */
-.navbar-light .container .nav-row .navbar-header .navbar-brand a p {
+.navbar-dark .container .nav-row .navbar-header .navbar-brand a p {
     text-decoration: none;
     color: #fffecd;
     text-shadow: 1px 0 2px #000
 }
-.navbar-light .container .nav-row .navbar-header .navbar-brand div p {
+.navbar-dark .container .nav-row .navbar-header .navbar-brand div p {
     margin: 0
 }
-.navbar-light .container .nav-row .navbar-header .navbar-brand p:first-of-type {
+.navbar-dark .container .nav-row .navbar-header .navbar-brand p:first-of-type {
     font-size: 14px;
     margin-bottom: 8px
 }
-.navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
+.navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type {
     font-size: 25px;
     padding: 0
 }
@@ -430,7 +429,7 @@ nav.blue {
     margin: 0 !important;
     padding: 1.875em 0;
     position: fixed;
-    top: 114px;
+    top: 113px;
     z-index: 2000;
     background: #fff;
     border-top: 9px solid #fffecd;
@@ -1493,6 +1492,9 @@ img.pica {
     body {
         font-size: 14px
     }
+    .logo {
+        height: 58px;
+    }
     #Inner .main {
         margin: 85px 0 3em
     }
@@ -1510,7 +1512,7 @@ img.pica {
         padding: 10px;
         font-size: .9em
     }
-    nav.navbar-light .navbar-nav .nav-item a {
+    nav.navbar-dark .navbar-nav .nav-item a {
         padding-top: 30px;
         padding-bottom: 30px
     }
@@ -1518,23 +1520,23 @@ img.pica {
         top: 85px;
         position: fixed
     }
-    .navbar-light .container .nav-row .navbar-header .navbar-brand img {
+    .navbar-dark .container .nav-row .navbar-header .navbar-brand img {
         width: 40px
     }
-    .navbar-light .mainnav .justify-content-between .nav-item a {
+    .navbar-dark .mainnav .justify-content-between .nav-item a {
         padding: 23px 5px 27px
     }
     #Home #myCarousel {
         min-height: 230px
     }
-    #Home.stick .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
+    #Home.stick .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type {
         padding: 24px 0
     }
-    header .navbar-light .container .nav-row .navbar-header .navbar-brand p:first-of-type {
+    header .navbar-dark .container .nav-row .navbar-header .navbar-brand p:first-of-type {
         font-size: 12px;
         margin-bottom: 0
     }
-    header .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
+    header .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type {
         font-size: 15px
     }
     .navbar-brand div {
@@ -1613,13 +1615,13 @@ img.pica {
     #Inner .main {
         margin: 109px 0 3em
     }
-    #Inner .navbar-light .mainnav .justify-content-between .nav-item a, .navbar-light .mainnav .justify-content-between .nav-item a {
+    #Inner .navbar-dark .mainnav .justify-content-between .nav-item a, .navbar-dark .mainnav .justify-content-between .nav-item a {
         padding: 34px 10px 40px
     }
-    #Inner .navbar-light {
+    #Inner .navbar-dark {
         height: 109px
     }
-    header .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
+    header .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type {
         font-size: 19px
     }
     .nav-row .navicons a {
@@ -1638,7 +1640,7 @@ img.pica {
     #Home #myCarousel {
         min-height: 230px
     }
-    #Home.stick .navbar-light .justify-content-between .nav-item a, #Inner.stick .navbar-light .justify-content-between .nav-item a {
+    #Home.stick .navbar-dark .justify-content-between .nav-item a, #Inner.stick .navbar-dark .justify-content-between .nav-item a {
         padding-top: 25px;
         padding-bottom: 25px
     }
@@ -1810,7 +1812,13 @@ input[type=search].sb-search-input {
     outline: 0;
     z-index: -1
 }
-.navbar-light, .navbar-light .navbar-collapse, .navbar-light .navbar-form {
+
+hr {
+    margin-bottom: 0;
+    color: rgb(255 255 255 / 40%);
+}
+.navbar-dark, .navbar-dark .navbar-collapse, .navbar-dark .navbar-form {
+    
     border-color: rgba(231, 231, 231, 0)
 }
 .sb-icon-search.icons {
@@ -1835,7 +1843,7 @@ input[type=search].sb-search-input {
     width: 30px;
     height: 60px
 }
-.navbar-light, .navbar-light .navbar-nav>.active .nav-link {
+.navbar-dark, .navbar-dark .navbar-nav>.active .nav-link {
     background-image: none;
     background-repeat: repeat-x;
     filter: none
@@ -2004,7 +2012,7 @@ select.input-sm {
 } */
 
 .navbar-form, .navbar-nav {
-    margin: 7px -15px
+    margin: 0px -15px
 }
 @media (min-width:768px) {
     .navbar-nav .nav-item a {
@@ -2024,38 +2032,38 @@ select.input-sm {
     margin-top: 14px;
     margin-bottom: 14px
 }
-.navbar-light {
+.navbar-dark {
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: rgba(248, 248, 248, 0)
 }
-.navbar-light .navbar-nav>.active .nav-link {
+.navbar-dark .navbar-nav>.active .nav-link {
     -webkit-box-shadow: none;
     box-shadow: none
 }
-.navbar-light .navbar-toggler .icon-bar {
+.navbar-dark .navbar-toggler .icon-bar {
     background-color: #ccc
 }
-.navbar-light .navbar-nav .nav-item a:focus, .navbar-light .navbar-nav .nav-item a:hover {
+.navbar-dark .navbar-nav .nav-item a:focus, .navbar-dark .navbar-nav .nav-item a:hover {
     color: #2B8CA9;
     background-color: #fffecd;
     text-shadow: none
 }
-.navbar-light .navbar-nav>.active .nav-link, .navbar-light .navbar-nav>.active .nav-link:focus, .navbar-light .navbar-nav>.active .nav-link:hover {
+.navbar-dark .navbar-nav>.active .nav-link, .navbar-dark .navbar-nav>.active .nav-link:focus, .navbar-dark .navbar-nav>.active .nav-link:hover {
     color: #2B8CA9;
     background-color: #fffecd
 }
-.navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+.navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-toggler:hover {
     background-color: transparent
 }
-.navbar-light .navbar-nav>.open .nav-link, .navbar-light .navbar-nav>.open .nav-link:focus, .navbar-light .navbar-nav>.open .nav-link:hover {
+.navbar-dark .navbar-nav>.open .nav-link, .navbar-dark .navbar-nav>.open .nav-link:focus, .navbar-dark .navbar-nav>.open .nav-link:hover {
     background-color: rgba(231, 231, 231, 0)
 }
-.navbar-light .navbar-toggler {
+.navbar-dark .navbar-toggler {
     border: none
 }
-.navbar-light .navbar-toggler:focus .icon-bar, .navbar-light .navbar-toggler:hover .icon-bar {
+.navbar-dark .navbar-toggler:focus .icon-bar, .navbar-dark .navbar-toggler:hover .icon-bar {
     background-color: #fff
 }
 .card {
@@ -2094,7 +2102,7 @@ select.input-sm {
     .navbar-nav .open .dropdown-menu .nav-item a {
         line-height: 22px
     }
-    .navbar-light .navbar-nav .open .dropdown-menu>.active .nav-link, .navbar-light .navbar-nav .open .dropdown-menu>.active .nav-link:focus, .navbar-light .navbar-nav .open .dropdown-menu>.active .nav-link:hover {
+    .navbar-dark .navbar-nav .open .dropdown-menu>.active .nav-link, .navbar-dark .navbar-nav .open .dropdown-menu>.active .nav-link:focus, .navbar-dark .navbar-nav .open .dropdown-menu>.active .nav-link:hover {
         background-color: rgba(231, 231, 231, 0)
     }
     .h3, h3 {
@@ -2103,7 +2111,7 @@ select.input-sm {
     .hidden-phone {
         display: none !important
     }
-    .navbar-light .navbar-brand {
+    .navbar-dark .navbar-brand {
         padding: 0;
         padding-left: 15px
     }
@@ -2113,7 +2121,7 @@ select.input-sm {
     .sites-oa {
         margin-bottom: 2em
     }
-    header .navbar-light .justify-content-between .nav-item a {
+    header .navbar-dark .justify-content-between .nav-item a {
         text-align: left;
         color: #fffecd;
         text-shadow: none;
@@ -2138,7 +2146,7 @@ select.input-sm {
     .navbar-brand .logo {
         display: none;
     }
-    #Home .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type, #Inner .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
+    #Home .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type, #Inner .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type {
         padding: 25px 0;
         text-shadow: none;
         font-size: 100%
@@ -2146,7 +2154,7 @@ select.input-sm {
     .navbar-brand {
         line-height: 18px
     }
-    nav.navbar-light .mainnav, nav.navbar-light .topnav {
+    nav.navbar-dark .mainnav, nav.navbar-dark .topnav {
         margin-left: 0;
         margin-right: 0
     }
@@ -2167,10 +2175,10 @@ select.input-sm {
     .navbar-collapse .nav .nav-item a:hover {
         text-decoration: underline
     }
-    nav.navbar-light .mainnav .justify-content-between li a {
+    nav.navbar-dark .mainnav .justify-content-between li a {
         text-align: right
     }
-    nav.navbar-light .justify-content-between li a:hover {
+    nav.navbar-dark .justify-content-between li a:hover {
         color: #fff;
         text-shadow: none
     }
@@ -2179,7 +2187,7 @@ select.input-sm {
     }
 }
 @media (max-width:365px) {
-    #Home .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type, #Inner .navbar-light .container .nav-row .navbar-header .navbar-brand p:last-of-type {
+    #Home .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type, #Inner .navbar-dark .container .nav-row .navbar-header .navbar-brand p:last-of-type {
         font-size: 76%
     }
     .news .col-6 {
