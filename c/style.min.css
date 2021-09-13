@@ -370,7 +370,7 @@ nav.blue {
     background-color: #fffecd;
     color: #2b8ca9
 }
-.navbar-collapse.collapsing .row, .navbar-collapse.in .row {
+.navbar-collapse .row, .navbar-collapse.in .row {
     border: 0;
     float: left;
     width: 50%
@@ -2161,15 +2161,15 @@ select.input-sm {
     .justify-content-between .nav-item  {
         margin-bottom: 1em
     }
-    .nav-row .navbar-collapse.collapsing .row, .nav-row .navbar-collapse.in .row {
+    .nav-row .navbar-collapse .row, .nav-row .navbar-collapse.in .row {
         text-align: right;
         margin-top: 20px;
         margin-bottom: 20px
     }
-    .nav-row .navbar-collapse.collapsing .mainnav, .nav-row .navbar-collapse.in .mainnav {
+    .nav-row .navbar-collapse .mainnav, .nav-row .navbar-collapse.in .mainnav {
         border-right: 1px solid rgba(231, 231, 231, .3)
     }
-    .nav-row .navbar-collapse.collapsing .topnav, .nav-row .navbar-collapse.in .topnav {
+    .nav-row .navbar-collapse .topnav, .nav-row .navbar-collapse.in .topnav {
         text-align: left
     }
     .navbar-collapse .nav .nav-item a:hover {
